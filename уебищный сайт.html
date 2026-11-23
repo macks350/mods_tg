@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TG MODS — каталог модов</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Шапка: логотип, живой поиск, тема, вход -->
+<header class="top">
+  <a class="logo" href="#/">TG<span>MODS</span></a>
+  <div class="search"><input id="q" placeholder="Поиск модов…" autocomplete="off"><div id="sres" class="sres"></div></div>
+  <button class="btn sm" data-act="theme" title="Тема">◐</button>
+  <a class="btn sm" href="#/upload">+ Загрузить</a>
+  <a class="btn sm" id="who" href="#/auth">Войти</a>
+</header>
+<nav class="cats" id="cats"></nav>
+<main id="app"></main>
+<footer>TG MODS · файлы модов: <b>.tg_mod</b></footer>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
